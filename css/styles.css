@@ -143,13 +143,14 @@ body {
 
 .section-hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
-    url(../images/peopleinoffice.jpg);
+            rgba(46, 47, 66, 0.7)),
+        url(../images/peopleinoffice.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 1440px;
+    text-align: center;
 }
 
 .hero-container {
@@ -265,9 +266,7 @@ body {
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .social-list-team {
@@ -401,9 +400,7 @@ body {
 .portfolio-container .items:hover {
     overflow: hidden;
     background: var(--white);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -608,9 +605,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
-    0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -815,9 +810,7 @@ body {
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
     fill: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-input:checked+.check-text .span-chck {
@@ -866,18 +859,21 @@ body {
 }
 
 .menu-btn {
-    min-width: auto;
-    min-height: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
     position: absolute;
-    right: 24px;
     top: 24px;
-    border-color: var(--dark);
-    border: 1px solid var(--subtle-text);
+    right: 24px;
+    padding: 0;
+    width: 24px;
+    height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color: #e7e9fc;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 
 .menu-btn:hover,
@@ -965,10 +961,22 @@ body {
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-icon {
     fill: #F4F4FD;
+}
+
+.social-link-item>.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link-item:hover,
+.social-link-item:focus {
+    background-color: var(--success);
 }
 
 
