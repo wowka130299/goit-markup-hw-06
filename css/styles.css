@@ -88,16 +88,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (min-width:768px) {
-    .container {
-        /* max-width: 1158px; */
-    }
-}
-@media screen and (min-width:1158px) {
-    .container {
-        /* max-width: 1158px; */
-    }
-}
+
+
 
 
 .nav-menu {
@@ -199,10 +191,7 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width:768px) {
-    .header-container {
-    }  
-}
+
 
 .header-button {
     border: none;
@@ -347,11 +336,7 @@ body {
 .advantages-container {
     padding: 120px 16px;
 }
-@media screen and (min-width:768px) {
-    .advantages-container {
-    
-    }
-}
+
 @media screen and (min-width:1158px) {
     .advantages-container {
         padding: 120px 0;
@@ -447,11 +432,7 @@ body {
 .icon-container {
 display: none
 }
-@media screen and (min-width:768px) {
-    .icon-container { 
-    }
 
-}
 @media screen and (min-width:1158px) {
     .icon-container {
         display: flex;
@@ -534,9 +515,7 @@ display: none
 }
 
 
-.team-list-item {
-    
-}
+
 @media screen and (min-width:768px) {
     .team-list-item {
         width: calc((100% - 24px) / 2 );
@@ -1076,7 +1055,6 @@ display: none
 .modal-btn {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.10);
-    ;
     position: absolute;
     top: 24px;
     right: 24px;
