@@ -90,8 +90,6 @@ body {
 }
 
 
-
-
 .nav-menu {
     display: flex;
     align-items: center;
@@ -190,7 +188,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 
 
 .header-button {
@@ -336,6 +333,18 @@ body {
 .advantages-container {
     padding: 120px 16px;
 }
+@media screen and (min-width:768px) {
+    .advantages-container {
+    
+    }
+}
+@media screen and (min-width:1158px) {
+    .advantages-container {
+        padding: 120px 0;
+    }
+
+}
+
 
 @media screen and (min-width:1158px) {
     .advantages-container {
@@ -513,7 +522,6 @@ display: none
         gap: 24px;
     }
 }
-
 
 
 @media screen and (min-width:768px) {
