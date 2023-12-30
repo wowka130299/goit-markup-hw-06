@@ -333,11 +333,7 @@ body {
 .advantages-container {
     padding: 120px 16px;
 }
-@media screen and (min-width:768px) {
-    .advantages-container {
-    
-    }
-}
+
 @media screen and (min-width:1158px) {
     .advantages-container {
         padding: 120px 0;
@@ -492,9 +488,7 @@ display: none
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-@media screen and (min-width:768px) {}
 
-@media screen and (min-width:1158px) {}
 
 .team-list-item>img {
     width: 100%;
